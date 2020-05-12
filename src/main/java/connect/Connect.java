@@ -32,13 +32,9 @@ public class Connect {
                 new Message()
                         .from(group)
                         .to(message.authorId())
-                        .text("1")
                         .photo("/res/image/picture_2.jpg")
-                        .text("2")
                         .photo("res/image/picture_2.jpg")
-                        .text("3")
                         .photo("\\res\\image\\picture_2.jpg")
-                        .text("4")
                         .photo("res\\image\\picture_2.jpg")
                         .send()
         );
