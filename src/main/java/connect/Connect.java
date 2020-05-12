@@ -21,8 +21,6 @@ public class Connect {
                         .from(group)
                         .to(message.authorId())
                         .text("Иди ботай !!!!!")
-                        .photo("target/classes/image/picture_2.jpg")
-                        .photo("\\target\\classes\\image\\picture_2.jpg")
                         .photo("target\\classes\\image\\picture_2.jpg")
                         .send()
         );
