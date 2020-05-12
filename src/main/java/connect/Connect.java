@@ -24,12 +24,14 @@ public class Connect {
                     .photo("src\\main\\resources\\picture_2.jpg")
                     .photo("target\\classes\\picture_2.jpg")
                     .photo("target\\picture_2.jpg")
-                    .photo("picture_2.jpg")
+                    .photo("classes\\connect\\picture_2.jpg")
                     .photo("/app/target/classes/picture_2")
                     .photo("~/app/target/classes/picture_2")
                         .photo("..app/target/classes/picture_2")
                     .photo("\\app\\target\\classes\\picture_2\n")
                     .photo("~\\app\\target\\classes\\picture_2\n")
+                        .photo("target\\bin\\picture_2.jpg")
+                        .photo("picture_2.jpg")
                     .send()
         );
 
