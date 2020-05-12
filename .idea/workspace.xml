@@ -1,194 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connect/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/res/images/picture_2.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ChatBotVk-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bin/ChatBot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bin/ChatBot.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connect/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/classworlds/classworlds/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/1.0.4/opus-java-api-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/1.0.4/opus-java-natives-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-annotations/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-core/2.6.3/jackson-core-2.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-core/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/fasterxml/jackson/core/jackson-databind/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/findbugs/jsr305/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/google/code/gson/gson/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/lukaspradel/steam-web-api/1.2/steam-web-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/lukaspradel/steam-web-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/neovisionaries/nv-websocket-client/2.9/nv-websocket-client-2.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/neovisionaries/nv-websocket-client/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/petersamokhin/vk-bot-java-sdk/0.1.3/vk-bot-java-sdk-0.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/petersamokhin/vk-bot-java-sdk/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/sparkjava/spark-core/2.6.0/spark-core-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/sparkjava/spark-core/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/3.13.0/okhttp-3.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okhttp3/okhttp/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/squareup/okio/okio/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/typesafe/netty/netty-reactive-streams/1.0.8/netty-reactive-streams-1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/typesafe/netty/netty-reactive-streams/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/vk/api/sdk/0.5.12/sdk-0.5.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/com/vk/api/sdk/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-codec/commons-codec/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-io/commons-io/2.5/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-io/commons-io/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-lang/commons-lang/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/commons-logging/commons-logging/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/connect/ChatBotVk/1.0/ChatBotVk-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/connect/ChatBotVk/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-buffer/4.0.48.Final/netty-buffer-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-buffer/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-codec-http/4.0.48.Final/netty-codec-http-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-codec-http/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-codec/4.0.48.Final/netty-codec-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-codec/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-common/4.0.48.Final/netty-common-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-common/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-handler/4.0.48.Final/netty-handler-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-handler/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-transport-native-epoll/4.0.48.Final/netty-transport-native-epoll-4.0.48.Final-linux-x86_64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-transport-native-epoll/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-transport/4.0.48.Final/netty-transport-4.0.48.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/io/netty/netty-transport/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/javax/servlet/javax.servlet-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/junit/junit/3.8.1/junit-3.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/junit/junit/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/log4j/log4j/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/dv8tion/JDA/4.1.1_127/JDA-4.1.1_127.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/dv8tion/JDA/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/java/dev/jna/jna/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/net/sf/trove4j/trove4j/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-collections4/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/commons/commons-lang3/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/fluent-hc/4.5.6/fluent-hc-4.5.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/fluent-hc/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpclient/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpcore/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/httpcomponents/httpmime/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-core/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/logging/log4j/log4j-slf4j-impl/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-artifact-manager/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-artifact/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-model/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-plugin-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-plugin-registry/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-profile/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-project/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-repository-metadata/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/maven-settings/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/plugins/maven-deploy-plugin/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/plugins/maven-install-plugin/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/apache/maven/wagon/wagon-provider-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/async-http-client-netty-utils/2.0.33/async-http-client-netty-utils-2.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/async-http-client-netty-utils/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/async-http-client/2.0.33/async-http-client-2.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/async-http-client/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-codec-dns/2.0.33/netty-codec-dns-2.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-codec-dns/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-resolver-dns/2.0.33/netty-resolver-dns-2.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-resolver-dns/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-resolver/2.0.33/netty-resolver-2.0.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/asynchttpclient/netty-resolver/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-container-default/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-digest/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/codehaus/plexus/plexus-utils/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-client/9.4.4.v20170414/jetty-client-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-client/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-http/9.4.4.v20170414/jetty-http-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-http/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-io/9.4.4.v20170414/jetty-io-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-io/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-security/9.4.4.v20170414/jetty-security-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-security/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-server/9.4.4.v20170414/jetty-server-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-server/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-servlet/9.4.4.v20170414/jetty-servlet-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-servlet/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-util/9.4.4.v20170414/jetty-util-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-util/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-webapp/9.4.4.v20170414/jetty-webapp-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-webapp/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-xml/9.4.4.v20170414/jetty-xml-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/jetty-xml/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-api/9.4.4.v20170414/websocket-api-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-client/9.4.4.v20170414/websocket-client-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-client/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-common/9.4.4.v20170414/websocket-common-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-common/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-server/9.4.4.v20170414/websocket-server-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-server/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-servlet/9.4.4.v20170414/websocket-servlet-9.4.4.v20170414.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/eclipse/jetty/websocket/websocket-servlet/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jetbrains/annotations/16.0.1/annotations-16.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jetbrains/annotations/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/json/json/20170516/json-20170516.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/json/json/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/jsoup/jsoup/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/reactivestreams/reactive-streams/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-api/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-jdk14/1.7.22/slf4j-jdk14-1.7.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-jdk14/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/repo/org/slf4j/slf4j-log4j12/maven-metadata-appassembler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/res/images/picture_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/res/images/picture_2.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,10 +27,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -292,7 +106,7 @@
       <workItem from="1589287725018" duration="5087000" />
       <workItem from="1589292865342" duration="708000" />
       <workItem from="1589293611644" duration="311000" />
-      <workItem from="1589294294061" duration="34000" />
+      <workItem from="1589294294061" duration="399000" />
     </task>
     <servers />
   </component>
@@ -316,22 +130,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589293797562" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1589293576640">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589294611614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589293576640" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1589293576640">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589294611614" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589294611613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589293576640" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1589293576639">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589294611613" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589294611613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589293576639" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1589293576640">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589294611613" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589294611614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589293576640" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589294611614" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1589206999899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

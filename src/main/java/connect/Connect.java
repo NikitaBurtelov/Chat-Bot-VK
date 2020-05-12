@@ -1,13 +1,7 @@
 package connect;
 
 import com.petersamokhin.bots.sdk.clients.Group;
-import com.petersamokhin.bots.sdk.longpoll.LongPoll;
 import com.petersamokhin.bots.sdk.objects.Message;
-import org.json.JSONObject;
-
-import javax.swing.*;
-import java.awt.*;
-import java.net.URL;
 
 public class Connect {
     private static final int idGroup = 195134131;
