@@ -21,7 +21,7 @@ public class Connect {
                     .from(group)
                     .to(message.authorId())
                     .text("Пппц")
-                    .photo("/image/picture_2")
+                    .photo("/image/picture_2.jpg")
                     .send()
         );
 
