@@ -43,15 +43,6 @@ public class Connect {
                         .send()
         );
 
-        group.onSimpleTextMessage(message ->
-                new Message()
-                        .from(group)
-                        .to(message.authorId())
-                        .text("4")
-                        .photo("res\\image\\picture_2.jpg")
-                        .send()
-        );
-
         group.onPhotoMessage(message ->
                 new Message()
                 .from(group)
