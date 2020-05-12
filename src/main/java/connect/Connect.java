@@ -1,7 +1,9 @@
 package connect;
 
 import com.petersamokhin.bots.sdk.clients.Group;
+import com.petersamokhin.bots.sdk.longpoll.LongPoll;
 import com.petersamokhin.bots.sdk.objects.Message;
+import org.json.JSONObject;
 
 public class Connect {
     private static final int idGroup = 195134131;
@@ -9,12 +11,31 @@ public class Connect {
 
     public static void main(String[] args) {
         Group group = new Group(idGroup, token);
+
         group.onSimpleTextMessage(message ->
                 new Message()
                     .from(group)
                     .to(message.authorId())
-                    .text("Пообщаемся ??")
+                    .text("Пиздуй ботать, а не трепаться !!!!!")
+                    .photo("src\\resources\\pictures\\picture_2.jpg")
                     .send()
         );
+
+        group.onPhotoMessage(message ->
+                new Message()
+                .from(group)
+                .to(message.authorId())
+                .text("Ну и зачем мне твои нужны твои картинки ???")
+                .send()
+        );
+
+        group.onStickerMessage(message ->
+                new Message()
+                        .from(group)
+                        .to(message.authorId())
+                        .text("Иииии ????")
+                        .send()
+        );
+
     }
 }
