@@ -25,6 +25,10 @@ public class Connect {
                         .photo("res/image/picture_2.jpg")
                         .photo("\\res\\image\\picture_2.jpg")
                         .photo("res\\image\\picture_2.jpg")
+                        .photo("/target/classes/image/picture_2.jpg")
+                        .photo("target/classes/image/picture_2.jpg")
+                        .photo("\\target\\classes\\image\\picture_2.jpg")
+                        .photo("target\\classes\\image\\picture_2.jpg")
                     .send()
         );
 
