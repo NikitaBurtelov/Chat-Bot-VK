@@ -32,10 +32,14 @@ public class Connect {
                 new Message()
                         .from(group)
                         .to(message.authorId())
-                        .photo("/res/image/picture_2.jpg")
+                        .text("Иди ботай !!!!!")
                         .photo("res/image/picture_2.jpg")
                         .photo("\\res\\image\\picture_2.jpg")
                         .photo("res\\image\\picture_2.jpg")
+                        .photo("/target/classes/image/picture_2.jpg")
+                        .photo("target/classes/image/picture_2.jpg")
+                        .photo("\\target\\classes\\image\\picture_2.jpg")
+                        .photo("target\\classes\\image\\picture_2.jpg")
                         .send()
         );
 
