@@ -18,25 +18,9 @@ public class Connect {
 
         group.onSimpleTextMessage(message ->
                 new Message()
-                    .from(group)
-                    .to(message.authorId())
-                    .text("Пппц")
-                    .photo("/res/image/picture_2.jpg")
-                        .photo("res/image/picture_2.jpg")
-                        .photo("\\res\\image\\picture_2.jpg")
-                        .photo("res\\image\\picture_2.jpg")
-                    .send()
-        );
-
-        group.onSimpleTextMessage(message ->
-                new Message()
                         .from(group)
                         .to(message.authorId())
                         .text("Иди ботай !!!!!")
-                        .photo("res/image/picture_2.jpg")
-                        .photo("\\res\\image\\picture_2.jpg")
-                        .photo("res\\image\\picture_2.jpg")
-                        .photo("/target/classes/image/picture_2.jpg")
                         .photo("target/classes/image/picture_2.jpg")
                         .photo("\\target\\classes\\image\\picture_2.jpg")
                         .photo("target\\classes\\image\\picture_2.jpg")
