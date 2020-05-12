@@ -15,23 +15,13 @@ public class Connect {
 
     public static void main(String[] args) {
         Group group = new Group(idGroup, token);
-        System.out.println("HELLLO");
+
         group.onSimpleTextMessage(message ->
                 new Message()
                     .from(group)
                     .to(message.authorId())
                     .text("Пппц")
-                    .photo("src\\main\\resources\\picture_2.jpg")
-                    .photo("target\\classes\\picture_2.jpg")
-                    .photo("target\\picture_2.jpg")
-                    .photo("classes\\connect\\picture_2.jpg")
-                    .photo("/app/target/classes/picture_2")
-                    .photo("~/app/target/classes/picture_2")
-                        .photo("..app/target/classes/picture_2")
-                    .photo("\\app\\target\\classes\\picture_2\n")
-                    .photo("~\\app\\target\\classes\\picture_2\n")
-                        .photo("target\\bin\\picture_2.jpg")
-                        .photo("picture_2.jpg")
+                    .photo("/image/picture_2")
                     .send()
         );
 

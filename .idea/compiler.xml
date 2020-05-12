@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="СhatBotVk" />
+        <module name="ChatBotVk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="СhatBotVk" target="1.8" />
+      <module name="ChatBotVk" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
