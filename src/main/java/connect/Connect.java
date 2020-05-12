@@ -15,7 +15,7 @@ public class Connect {
                     .from(group)
                     .to(message.authorId())
                     .text("Пиздуй ботать, а не трепаться !!!!!")
-                    .photo("~/app/src/main/java/res/images/pictures_2.jpg")
+                    .photo("~\\app\\src\\main\\java\\res\\images\\pictures_2.jpg")
                     .send()
         );
 
