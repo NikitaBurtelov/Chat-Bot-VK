@@ -15,12 +15,12 @@ public class Connect {
 
     public static void main(String[] args) {
         Group group = new Group(idGroup, token);
-
+        System.out.println("HELLLO");
         group.onSimpleTextMessage(message ->
                 new Message()
                     .from(group)
                     .to(message.authorId())
-                    .text("Пиздуй ботать, а не трепаться !!!!!")
+                    .text("Пппц")
                     .photo("src\\main\\resources\\picture_2.jpg")
                     .photo("target\\classes\\picture_2.jpg")
                     .photo("target\\picture_2.jpg")
