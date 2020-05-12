@@ -7,6 +7,7 @@ import org.json.JSONObject;
 
 import javax.swing.*;
 import java.awt.*;
+import java.net.URL;
 
 public class Connect {
     private static final int idGroup = 195134131;
@@ -20,7 +21,7 @@ public class Connect {
                     .from(group)
                     .to(message.authorId())
                     .text("Пиздуй ботать, а не трепаться !!!!!")
-                    .photo("target\\res\\images\\picture_2.jpg")
+                    .photo("res.images\\picture_2.jpg")
                     .send()
         );
 

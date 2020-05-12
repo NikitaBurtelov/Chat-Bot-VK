@@ -9,5 +9,8 @@
         <module name="СhatBotVk" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="СhatBotVk" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
