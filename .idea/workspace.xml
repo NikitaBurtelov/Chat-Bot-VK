@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/picture_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/picture_21.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/connect/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/res/images/picture_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/res/picture_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/res/picture_2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ChatBotVk-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ChatBotVk-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/connect/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/Connect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/repo/classworlds/classworlds/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/classworlds/classworlds/maven-metadata-appassembler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-api/maven-metadata-appassembler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/maven-metadata-appassembler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/repo/club/minnced/opus-java-natives/maven-metadata-appassembler.xml" afterDir="false" />
@@ -113,19 +112,22 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1blUU7Bwu73qwovg8UpjZwerf0h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/res/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,13 +141,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main" />
+      <recent name="C:\Users\user\IdeaProjects\СhatBotVk" />
+      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src" />
       <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\resources" />
       <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\java\connect" />
-      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\target\bin" />
-      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\target\res.images" />
-      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\java\res\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\resources" />
+      <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\java\connect" />
       <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\java\res\images" />
       <recent name="C:\Users\user\IdeaProjects\СhatBotVk\target" />
       <recent name="C:\Users\user\IdeaProjects\СhatBotVk\src\main\java" />
@@ -202,22 +206,25 @@
       <workItem from="1589287725018" duration="5087000" />
       <workItem from="1589292865342" duration="708000" />
       <workItem from="1589293611644" duration="311000" />
-      <workItem from="1589294294061" duration="5494000" />
+      <workItem from="1589294294061" duration="6688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="484" y="32" key="#ChatBotVk-1.0.jar" timestamp="1589293055228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="32" key="#ChatBotVk-1.0.jar/0.0.1536.824@0.0.1536.824" timestamp="1589293055228" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1589299223058">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1589300251275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589299223058" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589300251275" />
     <state x="917" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589214616070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,22 +233,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589293797562" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589299803422">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1589300985342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589299803422" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589299803422">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589300985342" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1589300985342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589299803422" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589299803422">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589300985342" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1589300985342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589299803422" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589299803422">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589300985342" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1589300985342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589299803422" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589300985342" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1589297599131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
