@@ -22,8 +22,8 @@ public class Connect {
                     .to(message.authorId())
                     .text("Пппц")
                     .photo("/res/image/picture_2.jpg")
-                        .photo("\\target\\classes\\image\\picture_2.jpg")
-                        .photo("target\\classes\\image\\picture_2.jpg")
+                        .photo("/target/classes/image/picture_2.jpg")
+                        .photo("target/classes/image/picture_2.jpg")
                     .send()
         );
 
