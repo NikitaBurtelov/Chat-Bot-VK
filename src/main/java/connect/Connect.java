@@ -1,13 +1,12 @@
 package connect;
 
+import com.petersamokhin.bots.sdk.clients.Client;
 import com.petersamokhin.bots.sdk.clients.Group;
+import com.petersamokhin.bots.sdk.clients.User;
+import com.petersamokhin.bots.sdk.longpoll.LongPoll;
 import com.petersamokhin.bots.sdk.objects.Message;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.*;
+import com.petersamokhin.bots.sdk.utils.Utils;
+import handler.CheckMessage;
 
 public class Connect {
     private static final int idGroup = 195134131;
@@ -15,9 +14,30 @@ public class Connect {
 
     public static void main(String[] args) {
         Group group = new Group(idGroup, token);
+        User user = new User(token);
 
-        group.onSimpleTextMessage(message ->
+        user.onMessage(message -> {
+            String textMessage = message.getText();
+            if (new CheckMessage(textMessage).WelcomeCheck()) {
                 new Message()
+                        .from(user)
+                        .to(message.authorId())
+                        .text("Hello, user!")
+                        .send();
+
+            } else if (textMessage.equalsIgnoreCase("Пока")) {
+                new Message()
+                        .from(user)
+                        .to(message.authorId())
+                        .text("До скорого")
+                        .send();
+            }
+        });
+
+        group.onSimpleTextMessage(
+                message ->
+                new Message()
+                        .attachments()
                         .from(group)
                         .to(message.authorId())
                         .text("Иди ботай !!!!!")
@@ -40,6 +60,5 @@ public class Connect {
                         .text("Иииии ????")
                         .send()
         );
-
     }
 }
