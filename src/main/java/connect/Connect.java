@@ -18,6 +18,7 @@ public class Connect {
 
         user.onMessage(message -> {
             String textMessage = message.getText();
+
             if (new CheckMessage(textMessage).WelcomeCheck()) {
                 new Message()
                         .from(user)
