@@ -1,11 +1,8 @@
 package connect;
 
-import com.petersamokhin.bots.sdk.clients.Client;
 import com.petersamokhin.bots.sdk.clients.Group;
 import com.petersamokhin.bots.sdk.clients.User;
-import com.petersamokhin.bots.sdk.longpoll.LongPoll;
 import com.petersamokhin.bots.sdk.objects.Message;
-import com.petersamokhin.bots.sdk.utils.Utils;
 import handler.CheckMessage;
 
 public class Connect {
@@ -32,19 +29,16 @@ public class Connect {
                         .to(message.authorId())
                         .text("До скорого")
                         .send();
-            }
-        });
-
-        group.onSimpleTextMessage(
-                message ->
+            } else {
                 new Message()
                         .attachments()
                         .from(group)
                         .to(message.authorId())
                         .text("Иди ботай !!!!!")
                         .photo("target/classes/image/picture_2.jpg")
-                        .send()
-        );
+                        .send();
+            }
+        });
 
         group.onPhotoMessage(message ->
                 new Message()

@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/CheckMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connect/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connect/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/Connect.class" afterDir="false" />
-    </list>
+    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +172,7 @@
       <workItem from="1589385141192" duration="1146000" />
       <workItem from="1589731890603" duration="7000" />
       <workItem from="1589818825558" duration="356000" />
-      <workItem from="1589819548774" duration="5774000" />
+      <workItem from="1589819548774" duration="6111000" />
     </task>
     <servers />
   </component>
