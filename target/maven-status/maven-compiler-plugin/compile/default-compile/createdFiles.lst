@@ -1,2 +1,3 @@
 connect\Connect.class
 handler\CheckMessage.class
+parser\PageInfo.class
