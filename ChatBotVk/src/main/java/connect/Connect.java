@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class Connect {
     private static final int idGroup = 195134131;
-    private static final String token = "123456789";
+    private static final String token = "1234567890";
 
     public static void main(String[] args) throws IOException {
         Group group = new Group(idGroup, token);
