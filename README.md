@@ -1,4 +1,4 @@
-# Chat Bot VK &middot; [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Chat Bot VK &middot; [![Build Status](https://travis-ci.org/NikitaBurtelov/Chat-Bot-VK.svg?branch=master)](https://travis-ci.org/NikitaBurtelov/Chat-Bot-VK) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Чат бот Вконтакте
 Напиши сообщение [тут](https://vk.com/club195134131)
