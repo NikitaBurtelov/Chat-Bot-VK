@@ -39,6 +39,14 @@ public class Connect {
                             .to(message.authorId())
                             .text(new PageInfo(textMessage).runSearch())
                             .send();
+            }
+            else if (textMessage.contains("/go")) {
+                new Message()
+                        .from(user)
+                        .to(message.authorId())
+                        .text("/game title_name - возвращает ссылку на магазин, " +
+                                "где самая низкая цена на ключ к игре")
+                        .send();
             } else {
                 new Message()
                         .attachments()
