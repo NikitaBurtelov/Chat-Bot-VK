@@ -6,5 +6,4 @@
 ### Функционал
 - `/game title_name` - возвращает ссылку на магазин, где самая низкая цена на ключ к игре
 
-
 <br>![Alt text](https://sun1-18.userapi.com/4hEhjD8O2yNLaYlqfI2hlkniX79H9mZuIlfGcA/uXRTgRecuY0.jpg "Пример использования")
