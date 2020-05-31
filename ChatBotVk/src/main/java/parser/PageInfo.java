@@ -61,9 +61,9 @@ public class PageInfo {
 
         return costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name;
     }
-
+    /*
     public static void main(String[] args) {
         title = "/game total-war-attilaa";
         runSearch();
-    }
+    }*/
 }
