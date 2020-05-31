@@ -4,6 +4,7 @@ import com.petersamokhin.bots.sdk.clients.Group;
 import com.petersamokhin.bots.sdk.clients.User;
 import com.petersamokhin.bots.sdk.objects.Message;
 import handler.CheckMessage;
+import news.parser.YandexNews;
 import parser.PageInfo;
 
 import java.io.IOException;
@@ -47,6 +48,17 @@ public class Connect {
                         .text("/game title_name - возвращает ссылку на магазин, " +
                                 "где самая низкая цена на ключ к игре")
                         .send();
+            }
+            else if (textMessage.contains("/news")) {
+                try {
+                    new Message()
+                            .from(user)
+                            .to(message.authorId())
+                            .text(new YandexNews().runNews())
+                            .send();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             } else {
                 new Message()
                         .attachments()
