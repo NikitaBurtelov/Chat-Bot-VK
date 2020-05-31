@@ -1,3 +1,4 @@
+news\parser\YandexNews.class
 connect\Connect.class
 handler\CheckMessage.class
 parser\PageInfo.class
