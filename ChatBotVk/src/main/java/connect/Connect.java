@@ -11,7 +11,11 @@ import java.io.IOException;
 
 public class Connect {
     private static final int idGroup = 195134131;
+<<<<<<< HEAD
     private static final String token = "1488";
+=======
+    private static final String token = "1234567890";
+>>>>>>> 52f7296380da9318861ea105a765c3464aaadd7f
 
     public static void main(String[] args) throws IOException {
         Group group = new Group(idGroup, token);

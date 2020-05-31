@@ -1,0 +1,6 @@
+language: java
+before_script:
+ - echo "Starting build"
+script:
+ - cd ChatBotVk
+ - mvn clean package
