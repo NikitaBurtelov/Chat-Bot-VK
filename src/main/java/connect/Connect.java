@@ -8,12 +8,25 @@ import news.parser.YandexNews;
 import parser.PageInfo;
 
 import java.io.IOException;
+import java.util.concurrent.Callable;
+import java.util.concurrent.TimeUnit;
 
 public class Connect {
     private static final int idGroup = 195134131;
     private static final String token = "d9d8dd3f78413d15d0e443763f56d1ca1983196de290317b109e06e12565a1779e6224f3b72f612da5c1d";
+    public static String str;
+    public static boolean flag = false;
 
-    public static void main(String[] args) throws IOException {
+    private static void dataCheckRun() throws Exception {
+        while (true) {
+            // в отдельном потоке
+            Callable<Boolean> callable = new DataCheckThread(new Connect());
+            TimeUnit.SECONDS.sleep(10);
+            flag = DataCheckThread.run(callable);
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
         Group group = new Group(idGroup, token);
         User user = new User(token);
 
@@ -64,8 +77,9 @@ public class Connect {
                         .attachments()
                         .from(group)
                         .to(message.authorId())
-                        .text("Иди ботай !!!!!")
-                        .photo("target/classes/image/picture_2.jpg")
+                        .text(flag ? "Иди спать":"Иди ботай !!!!!")
+                        .photo(flag ? "target/classes/image/picture_night.jpg"
+                                :"target/classes/image/picture_2.jpg")
                         .send();
             }
         });
@@ -85,5 +99,7 @@ public class Connect {
                         .text("Иииии ????")
                         .send()
         );
+
+        dataCheckRun();
     }
 }

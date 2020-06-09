@@ -1,4 +1,5 @@
-news\parser\YandexNews.class
 connect\Connect.class
+news\parser\YandexNews.class
+connect\DataCheckThread.class
 handler\CheckMessage.class
 parser\PageInfo.class
