@@ -24,7 +24,7 @@ public class DataCheckThread implements Callable{
         int data = Integer.parseInt(formatForDateNow);
         //System.out.println("Текущая дата " + formatForDateNow.format(dateNow));
         System.out.println(data);
-        if (data > 16 || data < 5) {
+        if (data > 23 || data < 5) {
             return true;
         }
         else
