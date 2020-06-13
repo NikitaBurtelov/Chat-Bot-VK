@@ -22,7 +22,7 @@ public class DataCheckThread implements Callable{
     public boolean checkData() {
         Date dateNow = new Date();
         String formatForDateNow = new SimpleDateFormat("HH").format(dateNow);
-        int data = Integer.parseInt(formatForDateNow) - gmt;
+        int data = Integer.parseInt(formatForDateNow) + gmt;
         //System.out.println("Текущая дата " + formatForDateNow.format(dateNow));
         System.out.println(data);
 
