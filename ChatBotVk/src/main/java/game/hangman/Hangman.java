@@ -17,6 +17,7 @@ public class Hangman {
     }
     //получаем рандомное слово из бд
     public static void randomWord() {
+        GameDataBase gameDataBase = new GameDataBase("name", "password", "url");
         Random random = new Random();
         int num = random.nextInt(100);
         //word;
