@@ -7,7 +7,8 @@ import handler.CheckMessage;
 import java.util.Random;
 
 public class Hangman {
-    public static String word = "джава";
+    public static String word;
+    public static String question;
     public static byte attempt = 6;
     public static int lenWorld;
     private static User user;
@@ -17,11 +18,12 @@ public class Hangman {
     }
     //получаем рандомное слово из бд
     public static void randomWord() {
-        GameDataBase gameDataBase = new GameDataBase("name", "password", "url");
         Random random = new Random();
-        int num = random.nextInt(100);
-        //word;
-        //lenWorld;
+        int num = random.nextInt(2);
+        String[] arrStr = GameDataBase.getWord(num);
+        question = arrStr[0];
+        word = arrStr[1];
+        lenWorld = word.length();
     }
 
     public static boolean checkLetter(String letter) {
@@ -36,7 +38,6 @@ public class Hangman {
         }
         else {
             lenWorld = lenNow != 0? lenNow: -1;
-
             return true;
         }
     }
