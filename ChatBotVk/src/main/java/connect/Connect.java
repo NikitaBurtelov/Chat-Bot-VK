@@ -1,8 +1,10 @@
 package connect;
 
+import com.petersamokhin.bots.sdk.clients.Client;
 import com.petersamokhin.bots.sdk.clients.Group;
 import com.petersamokhin.bots.sdk.clients.User;
 import com.petersamokhin.bots.sdk.objects.Message;
+import game.hangman.Hangman;
 import handler.CheckMessage;
 import news.parser.YandexNews;
 import parser.PageInfo;
@@ -15,7 +17,11 @@ public class Connect {
     private static final int idGroup = 195134131;
     private static final String token = "1488";
     public static String str;
-    public static boolean flag = false;
+    public static Hangman hangman = null;
+    public static ConnectGame connectGame = null;
+    public static boolean flag = true;
+    public static boolean gameFlag = false;
+
 
     private static void dataCheckRun() throws Exception {
         while (true) {
@@ -29,77 +35,86 @@ public class Connect {
     public static void main(String[] args) throws Exception {
         Group group = new Group(idGroup, token);
         User user = new User(token);
+        if (gameFlag) {
+            connectGame.checkOnMessage();
+        } else {
+            user.onMessage(message -> {
+                String textMessage = message.getText();
+                System.out.println(gameFlag);
+                if (new CheckMessage(textMessage).WelcomeCheck()) {
+                    new Message()
+                            .from(user)
+                            .to(message.authorId())
+                            .text("Hello, user!")
+                            .send();
+                } else if (textMessage.equalsIgnoreCase("/hangman")) {
+                    if (hangman == null) {
+                        System.out.println("run hm");
+                        hangman = new Hangman();
+                        hangman.randomWord();
+                        gameFlag = true;
+                    }
+                    if (connectGame == null)
+                        connectGame = new ConnectGame(user, hangman);
 
-        user.onMessage(message -> {
-            String textMessage = message.getText();
-
-            if (new CheckMessage(textMessage).WelcomeCheck()) {
-                new Message()
-                        .from(user)
-                        .to(message.authorId())
-                        .text("Hello, user!")
-                        .send();
-
-            } else if (textMessage.equalsIgnoreCase("Пока")) {
-                new Message()
-                        .from(user)
-                        .to(message.authorId())
-                        .text("До скорого")
-                        .send();
-            }
-            else if (textMessage.contains("/game")) {
+                } else if (textMessage.equalsIgnoreCase("Пока")) {
+                    new Message()
+                            .from(user)
+                            .to(message.authorId())
+                            .text("До скорого")
+                            .send();
+                } else if (textMessage.contains("/game")) {
                     new Message()
                             .from(user)
                             .to(message.authorId())
                             .text(new PageInfo(textMessage).runSearch())
                             .send();
-            }
-            else if (textMessage.contains("/go")) {
-                new Message()
-                        .from(user)
-                        .to(message.authorId())
-                        .text("/game title_name - возвращает ссылку на магазин, " +
-                                "где самая низкая цена на ключ к игре")
-                        .send();
-            }
-            else if (textMessage.contains("/news")) {
-                try {
+                } else if (textMessage.contains("/go")) {
                     new Message()
                             .from(user)
                             .to(message.authorId())
-                            .text(new YandexNews().runNews())
+                            .text("/game title_name - возвращает ссылку на магазин, " +
+                                    "где самая низкая цена на ключ к игре")
                             .send();
-                } catch (IOException e) {
-                    e.printStackTrace();
+                } else if (textMessage.contains("/news")) {
+                    try {
+                        new Message()
+                                .from(user)
+                                .to(message.authorId())
+                                .text(new YandexNews().runNews())
+                                .send();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                } else if (gameFlag) {
+                    new Message()
+                            .attachments()
+                            .from(group)
+                            .to(message.authorId())
+                            .text(flag ? "Иди спать" : "Иди ботай !!!!!")
+                            .photo(flag ? "target/classes/image/picture_night.jpg"
+                                    : "target/classes/image/picture_2.jpg")
+                            .send();
                 }
-            } else {
-                new Message()
-                        .attachments()
-                        .from(group)
-                        .to(message.authorId())
-                        .text(flag ? "Иди спать":"Иди ботай !!!!!")
-                        .photo(flag ? "target/classes/image/picture_night.jpg"
-                                :"target/classes/image/picture_2.jpg")
-                        .send();
-            }
-        });
+            });
 
-        group.onPhotoMessage(message ->
-                new Message()
-                .from(group)
-                .to(message.authorId())
-                .text("Ну и зачем мне твои нужны твои картинки ???")
-                .send()
-        );
+            group.onPhotoMessage(message ->
+                    new Message()
+                            .from(group)
+                            .to(message.authorId())
+                            .text("Ну и зачем мне твои нужны твои картинки ???")
+                            .send()
+            );
 
-        group.onStickerMessage(message ->
-                new Message()
-                        .from(group)
-                        .to(message.authorId())
-                        .text("Иииии ????")
-                        .send()
-        );
+            group.onStickerMessage(message ->
+                    new Message()
+                            .from(group)
+                            .to(message.authorId())
+                            .text("Иииии ????")
+                            .send()
+            );
 
-        dataCheckRun();
+            dataCheckRun();
+        }
     }
 }
