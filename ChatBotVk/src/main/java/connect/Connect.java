@@ -1,12 +1,11 @@
 package connect;
 
-import com.petersamokhin.bots.sdk.clients.Client;
 import com.petersamokhin.bots.sdk.clients.Group;
 import com.petersamokhin.bots.sdk.clients.User;
 import com.petersamokhin.bots.sdk.objects.Message;
 import game.hangman.Hangman;
 import handler.CheckMessage;
-import news.parser.YandexNews;
+import news.YandexNews;
 import parser.PageInfo;
 
 import java.io.IOException;

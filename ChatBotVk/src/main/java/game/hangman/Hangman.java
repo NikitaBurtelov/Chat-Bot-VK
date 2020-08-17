@@ -55,7 +55,6 @@ public class Hangman {
     }
 
     public static boolean runGame(Message message, User user) {
-
         new Message()
                 .from(user)
                 .to(message.authorId())

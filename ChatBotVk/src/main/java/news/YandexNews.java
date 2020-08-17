@@ -1,4 +1,4 @@
-package news.parser;
+package news;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

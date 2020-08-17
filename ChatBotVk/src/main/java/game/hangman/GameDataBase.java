@@ -6,8 +6,8 @@ public class GameDataBase {
     private static Connection con;
     private static Statement stmt;
     private static ResultSet rs;
-    private static final String userName = "";
-    private static final String password = "";
+    private static final String userName = "b5bb353745041b";
+    private static final String password = "9a0fa107";
     private static final String connectionUrl = "jdbc:mysql://eu-cdbr-west-03.cleardb.net:3306/heroku_5f088a083235cc3";
 
     private static String[] setConnectionUrl(int number) {
