@@ -16,16 +16,15 @@ public class YandexNews {
                 .get();
 
         Elements listNews = doc.select("div.news__panel.mix-tabber-slide2__panel");
-
+        System.out.println(listNews);
         for (Element element : listNews.select("a")) {
             str.append(element.text() + '\n');
         }
 
         return str.toString();
     }
-    /*
+
     public static void main(String[] args) throws IOException {
         System.out.println(runNews());
     }
-    */
 }
