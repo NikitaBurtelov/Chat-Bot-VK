@@ -5,6 +5,7 @@ import org.jsoup.nodes.Document;
 
 import java.io.*;
 import java.sql.*;
+import java.util.Objects;
 
 public class SteamWork {
     private static final String url = "https://store.steampowered.com/app/";
@@ -48,18 +49,18 @@ public class SteamWork {
         return null;
     }
 
-    public static String getCost(String id) {
+    private static String getCost(String id) {
         try {
-            String cost;
+            String cost = "";
             Document doc = Jsoup.connect(url.concat(id))
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .referrer("http://www.google.com")
                     .get();
 
-            cost = doc.select("div.game_purchase_price.price").first().text();
+            cost = doc.select("div.discount_final_price").first().text();
 
             if (cost.isEmpty()) {
-                cost = doc.select("div.discount_final_price").first().text();
+                cost = doc.select("div.game_purchase_price.price").first().text();
             }
 
             return cost.isEmpty() ? null : cost;
@@ -68,11 +69,14 @@ public class SteamWork {
         }
         return null;
     }
-    /*
 
-    public static void main(String[] args) {
-        String id = getIdApp("");
+    public static String getSteamAppCost(String nameApp) {
+        String id = getIdApp(nameApp);
+
         if (id != null)
-            System.out.println(getCost(id));
-    }*/
+            return Objects.requireNonNull(getCost(id))
+                    .replaceAll("руб", "")
+                    .replace(",", ".");
+        return null;
+    }
 }

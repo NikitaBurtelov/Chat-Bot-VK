@@ -5,6 +5,8 @@ import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+import steamAPI.SteamWork;
+
 import java.io.IOException;
 
 public class PageInfo {
@@ -16,6 +18,11 @@ public class PageInfo {
 
     public PageInfo(String title) {
         this.title = title;
+    }
+
+    private static String getCostApp(String nameApp) {
+
+        return SteamWork.getSteamAppCost(nameApp);
     }
 
     private static double parserPage(String link, String cssQuery) {
@@ -52,7 +59,7 @@ public class PageInfo {
                 cssQueryZz);
         Double costZz = parserPage(linkSp + name,
                 cssQuerySp);
-        System.out.println(costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name);
+        //System.out.println(costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name);
 
         if (costSp == -1 && costZz == -1)
             return "Скоро в наличии" + linkSp + name;
