@@ -69,6 +69,7 @@ public class SteamWork {
         return null;
     }
     /*
+
     public static void main(String[] args) {
         String id = getIdApp("");
         if (id != null)

@@ -6,21 +6,36 @@ import com.petersamokhin.bots.sdk.objects.Message;
 import game.hangman.Hangman;
 import handler.CheckMessage;
 import news.YandexNews;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import parser.PageInfo;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
 public class Connect {
     private static final int idGroup = 195134131;
-    private static final String token = "1488";
-    public static String str;
+    private static final String path = "src\\main\\resources\\data\\token.json";
+    private static final String token = getJsonObject(path);
     public static Hangman hangman = null;
     public static ConnectGame connectGame = null;
     public static boolean flag = true;
     public static boolean gameFlag = false;
 
+    private static String getJsonObject(String filePath) {
+        try {
+            return ((JSONObject) (new JSONParser()).parse(new FileReader(filePath))).get("token").toString();
+
+        } catch (IOException | ParseException fileNotFoundException) {
+            fileNotFoundException.printStackTrace();
+            return null;
+        }
+    }
 
     private static void dataCheckRun() throws Exception {
         while (true) {
@@ -34,6 +49,7 @@ public class Connect {
     public static void main(String[] args) throws Exception {
         Group group = new Group(idGroup, token);
         User user = new User(token);
+
         if (gameFlag) {
             connectGame.checkOnMessage();
         } else {
