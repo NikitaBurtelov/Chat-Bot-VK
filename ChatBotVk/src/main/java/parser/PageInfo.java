@@ -8,11 +8,14 @@ import org.jsoup.select.Elements;
 import steamAPI.SteamWork;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class PageInfo {
     private static String title;
     private static final String linkSp = "https://steampay.com/game/";
     private static final String linkZz = "https://zaka-zaka.com/game/";
+    private static final String linkSteam = "https://store.steampowered.com/app/";
+    private static String steamNameApp = null;
     private static final String cssQuerySp = "div.product__current-price";
     private static final String cssQueryZz = "div.price";
 
@@ -20,9 +23,16 @@ public class PageInfo {
         this.title = title;
     }
 
-    private static String getCostApp(String nameApp) {
+    private static double getCostSteamApp(String nameApp) {
+        String[] objects = SteamWork.getSteamAppCost(nameApp);
 
-        return SteamWork.getSteamAppCost(nameApp);
+        if (true) {
+            steamNameApp = objects[0];
+
+            return Double.parseDouble(objects[1]);
+        }
+        else
+            return -1;
     }
 
     private static double parserPage(String link, String cssQuery) {
@@ -34,23 +44,21 @@ public class PageInfo {
 
             Elements listNews = doc.select(cssQuery);
 
-            System.out.println(listNews.text());
-
             if (listNews.text().toLowerCase().contains("скоро"))
-                return -1;
+                return -2;
 
             return Double.parseDouble(listNews.text().split(" ")[0]);
         } catch (HttpStatusException q) {
             q.printStackTrace();
             if (q.getStatusCode() == 404)
-                return 0;
+                return -1;
         }
         catch (NullPointerException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return 0;
+        return -1;
     }
 
     public static String runSearch() {
@@ -59,14 +67,18 @@ public class PageInfo {
                 cssQueryZz);
         Double costZz = parserPage(linkSp + name,
                 cssQuerySp);
-        //System.out.println(costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name);
+        Double costSteam = getCostSteamApp(name);
 
-        if (costSp == -1 && costZz == -1)
-            return "Скоро в наличии" + linkSp + name;
-        else if (costSp == 0 && costZz == 0)
+        System.out.println("Cost " + costSp + " " + costZz + " " + costSteam);
+
+        if (costSp == -1 && costZz == -1 && costSteam == -1)
             return "Я не нашел такую игру";
 
-        return costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name;
+        //return linkSteam + steamNameApp;
+        return costSteam.compareTo(costZz) < 0 && costSteam.compareTo(costZz) < 0 ?
+                linkSteam + steamNameApp: costZz.compareTo(costSp) < 0 ? linkZz + name : linkSp + name;
+
+        //return costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name;
     }
     /*
     public static void main(String[] args) {

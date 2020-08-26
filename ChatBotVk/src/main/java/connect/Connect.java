@@ -55,7 +55,7 @@ public class Connect {
         } else {
             user.onMessage(message -> {
                 String textMessage = message.getText();
-                System.out.println(gameFlag);
+
                 if (new CheckMessage(textMessage).WelcomeCheck()) {
                     new Message()
                             .from(user)

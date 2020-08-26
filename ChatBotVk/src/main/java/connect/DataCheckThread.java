@@ -24,10 +24,8 @@ public class DataCheckThread implements Callable{
         String formatForDateNow = new SimpleDateFormat("HH").format(dateNow);
         int data = Integer.parseInt(formatForDateNow) + gmt;
         //System.out.println("Текущая дата " + formatForDateNow.format(dateNow));
-        System.out.println(data);
 
         if (data >= 23 || data < 5) {
-            System.out.println(data);
             return true;
         }
         else

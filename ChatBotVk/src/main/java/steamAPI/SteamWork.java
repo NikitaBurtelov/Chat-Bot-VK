@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 
 import java.io.*;
 import java.sql.*;
-import java.util.Objects;
+import java.util.*;
 
 public class SteamWork {
     private static final String url = "https://store.steampowered.com/app/";
@@ -57,26 +57,32 @@ public class SteamWork {
                     .referrer("http://www.google.com")
                     .get();
 
-            cost = doc.select("div.discount_final_price").first().text();
-
-            if (cost.isEmpty()) {
-                cost = doc.select("div.game_purchase_price.price").first().text();
+            try {
+                cost = doc.select("div.game_purchase_price.price[data-price-final]").first().text();
+            }
+            catch (NullPointerException exception) {
+                cost = doc.select("div.discount_final_price").first().text();
             }
 
             return cost.isEmpty() ? null : cost;
+
         } catch (IOException | NullPointerException exception ) {
             exception.printStackTrace();
         }
         return null;
     }
 
-    public static String getSteamAppCost(String nameApp) {
+    public static String[] getSteamAppCost(String nameApp) {
+        String[] objects = new String[2];
         String id = getIdApp(nameApp);
 
-        if (id != null)
-            return Objects.requireNonNull(getCost(id))
-                    .replaceAll("руб", "")
-                    .replace(",", ".");
+        if (id != null) {
+            objects[0] = id;
+            String str = getCost(id).replace(",", ".");
+            objects[1] = str.substring(0, str.length() - 4);
+
+            return objects;
+        }
         return null;
     }
 }
