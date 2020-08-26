@@ -26,7 +26,7 @@ public class PageInfo {
     private static double getCostSteamApp(String nameApp) {
         String[] objects = SteamWork.getSteamAppCost(nameApp);
 
-        if (true) {
+        if (objects[0] != null) {
             steamNameApp = objects[0];
 
             return Double.parseDouble(objects[1]);
@@ -53,9 +53,7 @@ public class PageInfo {
             if (q.getStatusCode() == 404)
                 return -1;
         }
-        catch (NullPointerException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        catch (NullPointerException | IOException e) {
             e.printStackTrace();
         }
         return -1;
@@ -73,12 +71,23 @@ public class PageInfo {
 
         if (costSp == -1 && costZz == -1 && costSteam == -1)
             return "Я не нашел такую игру";
-
-        //return linkSteam + steamNameApp;
-        return costSteam.compareTo(costZz) < 0 && costSteam.compareTo(costZz) < 0 ?
-                linkSteam + steamNameApp: costZz.compareTo(costSp) < 0 ? linkZz + name : linkSp + name;
-
-        //return costSp.compareTo(costZz) >= 0? linkZz + name: linkSp + name;
+        else if (costSteam == -1) {
+            return costZz == -1? linkSp + name: costZz.compareTo(costSp) < 0 ?
+                    linkZz + name: linkSp + name;
+        }
+        else if (costZz == -1) {
+            return costSteam == -1? linkSp + name: costSteam.compareTo(costSp) < 0 ?
+                    linkSteam + steamNameApp: linkSp + name;
+        }
+        else if (costSp == -1) {
+            return costSteam == -1? linkZz + name: costSteam.compareTo(costZz) < 0 ?
+                    linkSteam + steamNameApp: linkZz + name;
+        }
+        else {
+            return costSteam.compareTo(costSp) < 0 && costSteam.compareTo(costZz) < 0?
+                    linkSteam + steamNameApp: costSp.compareTo(costZz) < 0?
+                    linkSp + name: linkZz + name;
+        }
     }
     /*
     public static void main(String[] args) {

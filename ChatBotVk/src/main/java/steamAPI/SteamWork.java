@@ -73,7 +73,7 @@ public class SteamWork {
     }
 
     public static String[] getSteamAppCost(String nameApp) {
-        String[] objects = new String[2];
+        String[] objects = new String[2]; //null, null
         String id = getIdApp(nameApp);
 
         if (id != null) {
