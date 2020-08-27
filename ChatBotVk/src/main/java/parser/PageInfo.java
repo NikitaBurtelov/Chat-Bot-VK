@@ -89,9 +89,4 @@ public class PageInfo {
                     linkSp + name: linkZz + name;
         }
     }
-    /*
-    public static void main(String[] args) {
-        title = "/game total-war-attilaa";
-        runSearch();
-    }*/
 }
