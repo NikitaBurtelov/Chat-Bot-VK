@@ -10,9 +10,7 @@ echo █─██─█─███─█─██─██─█─█─██
 echo █─██─█───█─█─██────█─██─█───█
 echo █████████████████████████████
 
-heroku logs
-read -p
-read -p
+heroku bash run
 
 @pause
 

@@ -13,6 +13,8 @@ echo █████████████████████████
 heroku config > nul
 heroku logs --tail
 
+heroku bash run
+
 pause
 
 
