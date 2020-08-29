@@ -5,7 +5,6 @@ import org.jsoup.nodes.Document;
 
 import java.io.*;
 import java.sql.*;
-import java.util.*;
 
 public class SteamWork {
     private static final String url = "https://store.steampowered.com/app/";
@@ -13,6 +12,7 @@ public class SteamWork {
     private static final String password = "root";
     private static final String connectionUrl = "jdbc:mysql://localhost:3306/steamggg?useSSL=false";
 
+    /*
     private static Document getAppList() {
         try {
             String urlSteamApps = "https://api.steampowered.com/ISteamApps/GetAppList/v2/";
@@ -28,7 +28,7 @@ public class SteamWork {
             q.printStackTrace();
             return null;
         }
-    }
+    }*/
 
     private static String getIdApp(String name) {
         try {
