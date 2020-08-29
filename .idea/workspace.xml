@@ -15,11 +15,49 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="" />
+    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku_config.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heroku_configsh.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/connect/ConnectGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/hangman/GameDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/hangman/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steamAPI/SteamWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/mysql/create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/token.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connect/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connect/DataCheckThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/DataCheckThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/news/parser/YandexNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news/YandexNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connect/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connect/DataCheckThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/DataCheckThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/news/parser/YandexNews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parser/PageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/parser/PageInfo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +74,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/NikitaBurtelov/Chat-Bot-VK" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1blUU7Bwu73qwovg8UpjZwerf0h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,6 +98,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -62,7 +115,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,19 +152,6 @@
       <module name="ChatBotVk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="handler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataCheckThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="connect.DataCheckThread" />
-      <module name="ChatBotVk" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="connect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -120,12 +160,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parser.PageInfo" />
+    <configuration name="GameDataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.hangman.GameDataBase" />
       <module name="ChatBotVk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parser.*" />
+          <option name="PATTERN" value="game.hangman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SteamWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="steamAPI.SteamWork" />
+      <module name="ChatBotVk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="steamAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +187,11 @@
       </method>
     </configuration>
     <configuration name="YandexNews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="news.parser.YandexNews" />
+      <option name="MAIN_CLASS_NAME" value="news.YandexNews" />
       <module name="ChatBotVk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="news.parser.*" />
+          <option name="PATTERN" value="news.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +199,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="create_table.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/mysql/create_table.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="2f0dd7d7-4216-4c4c-b91d-dd8f8d4b275c" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Connect" />
-        <item itemvalue="Application.DataCheckThread" />
-        <item itemvalue="Application.CallableExample" />
+        <item itemvalue="Application.SteamWork" />
         <item itemvalue="Application.YandexNews" />
-        <item itemvalue="Application.PageInfo" />
+        <item itemvalue="Application.CallableExample" />
       </list>
     </recent_temporary>
   </component>
@@ -191,8 +249,44 @@
       <workItem from="1591445086049" duration="272000" />
       <workItem from="1591705334749" duration="9421000" />
       <workItem from="1592069871117" duration="669000" />
-      <workItem from="1592084979764" duration="1191000" />
+      <workItem from="1592084979764" duration="1757000" />
+      <workItem from="1592404930741" duration="6380000" />
+      <workItem from="1592611125656" duration="2634000" />
+      <workItem from="1592660180062" duration="9759000" />
+      <workItem from="1592745879336" duration="184000" />
+      <workItem from="1592759376268" duration="1471000" />
+      <workItem from="1592823991158" duration="4738000" />
+      <workItem from="1592859383088" duration="601000" />
+      <workItem from="1593030309841" duration="630000" />
+      <workItem from="1593354426644" duration="6788000" />
+      <workItem from="1593367628006" duration="1830000" />
+      <workItem from="1593442857295" duration="13063000" />
+      <workItem from="1593731365163" duration="37000" />
+      <workItem from="1595177662696" duration="3858000" />
+      <workItem from="1596367579375" duration="18000" />
+      <workItem from="1596734651673" duration="13997000" />
+      <workItem from="1596753236310" duration="4984000" />
+      <workItem from="1596758342258" duration="93000" />
+      <workItem from="1596814792646" duration="14818000" />
+      <workItem from="1597705396140" duration="1752000" />
+      <workItem from="1597762041526" duration="5498000" />
+      <workItem from="1597876415237" duration="761000" />
+      <workItem from="1598197278676" duration="1711000" />
+      <workItem from="1598386967234" duration="11686000" />
+      <workItem from="1598398708445" duration="10675000" />
+      <workItem from="1598459307417" duration="4033000" />
+      <workItem from="1598563954896" duration="176000" />
+      <workItem from="1598707414178" duration="335000" />
+      <workItem from="1598722656274" duration="1020000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1598723313796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598723313796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +297,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -212,91 +318,159 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="32" key="#ChatBotVk-1.0.jar" timestamp="1589293055228">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1598462694511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="484" y="32" key="#ChatBotVk-1.0.jar/0.0.1536.824@0.0.1536.824" timestamp="1589293055228" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1589300251275">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1598462694511" />
+    <state x="206" y="254" key="#SQL_Dialects" timestamp="1596739411633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589300251275" />
-    <state x="917" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589214616070">
+    <state x="206" y="254" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1596739411633" />
+    <state x="599" y="267" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1598400959943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="917" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1589214616070" />
-    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1591708894525">
+    <state x="599" y="267" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1536.824@0.0.1536.824" timestamp="1598400959943" />
+    <state x="310" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597762939724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591708894525" />
-    <state x="466" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589305043368">
+    <state x="310" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597762939724" />
+    <state x="917" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596734997894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="466" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589305043368" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1589925845963">
+    <state x="917" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596734997894" />
+    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1596761646216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1589925845963" />
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1591445354783">
+    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596761646216" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596756814848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591445354783" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1592085799758">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596756814848" />
+    <state x="484" y="61" key="#create_table.sql" timestamp="1596739449183">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592085799758" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1592085799758">
+    <state x="484" y="61" key="#create_table.sql/0.0.1536.824@0.0.1536.824" timestamp="1596739449183" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1598400909524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592085799758" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1592085799758">
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598400909524" />
+    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598723358688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592085799758" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1592085799758">
+    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598723358688" />
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1598197910044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592085799758" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591714968891">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598197910044" />
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596822914046" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1598470993492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591714968891" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591714968890">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598470993492" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1598470993492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591714968890" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591714968890">
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598470993492" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1598470993492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591714968890" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591714968891">
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598470993492" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1598470993492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591714968891" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1589297599131">
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598470993492" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598470993480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1589297599131" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1589305191425">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598470993480" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598470993480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589305191425" />
-    <state x="209" y="73" key="new project wizard" timestamp="1589293799580">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598470993480" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598470993480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589293799580" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1589908434409">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598470993480" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598470993480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589908434409" />
-    <state x="561" y="271" key="scopes" timestamp="1589215324205">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598470993480" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1598723640342">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="561" y="271" key="scopes/0.0.1536.824@0.0.1536.824" timestamp="1589215324205" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589308843767">
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1598723640342" />
+    <state x="549" y="115" key="RollbackChangesDialog" timestamp="1598723631387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589308843767" />
+    <state x="549" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598723631387" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1598197888116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598197888116" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597876575709" />
+    <state x="618" y="326" key="VCS.ChangelistChooser" timestamp="1598723378783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1598723378783" />
+    <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596735737327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596735737327" />
+    <state x="322" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592827935278">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="322" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1592827935278" />
+    <state x="-566" y="113" width="2881" height="630" key="dock-window-1" timestamp="1598198565138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-566" y="113" width="2881" height="630" key="dock-window-1/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598198565138" />
+    <state x="51" y="76" width="1349" height="637" key="dock-window-2" timestamp="1598387597439">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1461" y="101" width="1349" height="637" maximized="true" key="dock-window-2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598198565138" />
+    <state x="51" y="76" width="1349" height="637" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1598387597439" />
+    <state x="209" y="73" key="new project wizard" timestamp="1598564129492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598564129492" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598388269953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598388269953" />
+    <state x="429" y="40" width="672" height="678" key="search.everywhere.popup" timestamp="1598404179126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="40" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598197860582" />
+    <state x="429" y="40" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598404179126" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parser/PageInfo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parser/PageInfo.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parser/PageInfo.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/parser/PageInfo.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

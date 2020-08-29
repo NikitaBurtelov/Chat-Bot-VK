@@ -1,4 +1,4 @@
-package news.parser;
+package news;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -23,9 +23,8 @@ public class YandexNews {
 
         return str.toString();
     }
-    /*
+
     public static void main(String[] args) throws IOException {
         System.out.println(runNews());
     }
-    */
 }

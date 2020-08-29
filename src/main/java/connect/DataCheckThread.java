@@ -23,15 +23,8 @@ public class DataCheckThread implements Callable{
         Date dateNow = new Date();
         String formatForDateNow = new SimpleDateFormat("HH").format(dateNow);
         int data = Integer.parseInt(formatForDateNow) + gmt;
-        //System.out.println("Текущая дата " + formatForDateNow.format(dateNow));
-        System.out.println(data);
 
-        if (data >= 23 || data < 5) {
-            System.out.println(data);
-            return true;
-        }
-        else
-            return false;
+        return data >= 23 || data < 5;
     }
 
     public static boolean run(Callable<Boolean> callable) throws Exception {
