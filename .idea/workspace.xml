@@ -31,7 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="" />
+    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +49,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="NikitaBurtelov" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Chat-Bot-VK" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -251,7 +259,7 @@
       <workItem from="1598459307417" duration="4033000" />
       <workItem from="1598563954896" duration="176000" />
       <workItem from="1598707414178" duration="335000" />
-      <workItem from="1598722656274" duration="1215000" />
+      <workItem from="1598722656274" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1598723313796</created>
@@ -274,11 +282,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598723829206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix SteamWork">
+      <created>1598723977474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598723977474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -311,10 +336,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix SteamWork" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="654" y="275" key="#Notifications" timestamp="1598723871066">
+    <state x="654" y="275" width="455" height="405" key="#Notifications" timestamp="1598724015143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598723871066" />
+    <state x="654" y="275" width="455" height="405" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598724015143" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1598462694511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -351,15 +376,23 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598400909524" />
-    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598723828663">
+    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598723976749">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598723828663" />
+    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598723976749" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1598724213176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1598724213176" />
     <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1598197910044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598197910044" />
     <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596822914046" />
+    <state x="414" y="279" key="Github.CreatePullRequestDialog" timestamp="1598724072834">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="279" key="Github.CreatePullRequestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598724072834" />
     <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1598470993492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,18 +442,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1598723378783" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598723846390">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598724053563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598723846390" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598724053563" />
     <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596735737327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596735737327" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598723758732">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598724357911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598723758732" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598724357911" />
     <state x="322" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592827935278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
