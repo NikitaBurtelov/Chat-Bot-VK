@@ -31,33 +31,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku_config.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heroku_configsh.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/connect/ConnectGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/hangman/GameDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/hangman/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steamAPI/SteamWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mysql/create_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/token.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connect/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/connect/DataCheckThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connect/DataCheckThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/news/parser/YandexNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/news/YandexNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connect/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/Connect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/connect/DataCheckThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connect/DataCheckThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/news/parser/YandexNews.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parser/PageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/parser/PageInfo.class" afterDir="false" />
-    </list>
+    <list default="true" id="0cf70756-d13d-4b91-af2d-07cc5387d4ed" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -277,7 +251,7 @@
       <workItem from="1598459307417" duration="4033000" />
       <workItem from="1598563954896" duration="176000" />
       <workItem from="1598707414178" duration="335000" />
-      <workItem from="1598722656274" duration="1020000" />
+      <workItem from="1598722656274" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1598723313796</created>
@@ -286,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598723313796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1598723721025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598723721025</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix SteamWork">
+      <created>1598723829206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598723829206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,9 +307,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix SteamWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix SteamWork" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1598723871066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598723871066" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1598462694511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -358,10 +351,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1598400909524" />
-    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598723358688">
+    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1598723828663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598723358688" />
+    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598723828663" />
     <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1598197910044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -416,10 +409,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1598723378783" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598723846390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598723846390" />
     <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596735737327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="621" y="150" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596735737327" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598723758732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598723758732" />
     <state x="322" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592827935278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
