@@ -9,4 +9,4 @@
 - `/news` [beta]
 - `/hangman` [beta]
 
-<br>![Alt text](https://sun1-18.userapi.com/4hEhjD8O2yNLaYlqfI2hlkniX79H9mZuIlfGcA/uXRTgRecuY0.jpg "Пример использования")
+# <br>![Alt text](https://sun1-18.userapi.com/4hEhjD8O2yNLaYlqfI2hlkniX79H9mZuIlfGcA/uXRTgRecuY0.jpg "Пример использования")
